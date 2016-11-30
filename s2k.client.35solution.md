@@ -7,7 +7,7 @@
 
 Nucleus.cs
   - POSPoll()
-    - [Connector](#poshasskulog.cs).Download(XmlPath=true, ...);
+    - [Connector](#poshasskulogcs).Download(XmlPath=true, ...);
 
 NucleusSetting.cs
 ```
@@ -20,7 +20,7 @@ FolderPwd = "$4AB*cde56";
 
 Passport.cs
   - POSPoll()
-    - [Connector](#poshasskulog.cs).Download(XmlPath=false, ...);
+    - [Connector](#poshasskulogcs).Download(XmlPath=false, ...);
 
 PassportSetting.cs
 ```
@@ -36,8 +36,8 @@ XmlOutBoxPath = POSMapPath;
 
 Radiant.cs
   - POSPoll()
-    - [Connector](#poshasskulog.cs).Download(XmlPath=false, ...);
-    - [Connector](#poshasskulog.cs).Download(XmlPath=true, ...);
+    - [Connector](#poshasskulogcs).Download(XmlPath=false, ...);
+    - [Connector](#poshasskulogcs).Download(XmlPath=true, ...);
         
 RadiantSetting.cs
 
