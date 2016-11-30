@@ -1,11 +1,15 @@
 # s2k.client.35solution
 ## s2k.client.v3.client
 
-- [ ] [ComData.cs](#poshasskulogcs)
+- [ ] [ComData](#comdatacs)
+- [X] [Nucleus](#nucleuscs)
+- [X] [Passport](#passportcs)
+- [X] [Radiant](#radiantcs)
+- [ ] [Ruby](#rubycs)
 
-- [X] Nucleus.cs
+#### ComData.cs
 
-Nucleus.cs
+#### Nucleus.cs
   - POSPoll()
     - [Connector](#poshasskulogcs).Download(XmlPath=true, ...);
 
@@ -16,9 +20,7 @@ FolderUser = @"nucleus_sc1\bos_access";
 FolderPwd = "$4AB*cde56";
 ```
 
-- [X] Passport.cs
-
-Passport.cs
+#### Passport.cs
   - POSPoll()
     - [Connector](#poshasskulogcs).Download(XmlPath=false, ...);
 
@@ -32,19 +34,16 @@ RequiredFiles = "FGM,ISM,MCM,MSM,TPM,TLM";
 XmlOutBoxPath = POSMapPath;
 ```
 
-- [X] Radiant.cs
-
-Radiant.cs
+#### Radiant.cs
   - POSPoll()
     - [Connector](#poshasskulogcs).Download(XmlPath=false, ...);
     - [Connector](#poshasskulogcs).Download(XmlPath=true, ...);
         
 RadiantSetting.cs
 
-- [ ] Ruby.cs
+#### Ruby.cs
 
-POSHasSkuLog.cs
----------------
+#### POSHasSkuLog.cs
 
 - Connector
 ```
