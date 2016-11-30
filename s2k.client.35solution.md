@@ -7,7 +7,7 @@
 
 Nucleus.cs
   - POSPoll()
-    - [Connector](#POSHasSkuLog.cs).Download(XmlPath=true, ...);
+    - [Connector](#POSHasSkuLog-cs).Download(XmlPath=true, ...);
 
 NucleusSetting.cs
 ```
@@ -20,7 +20,7 @@ FolderPwd = "$4AB*cde56";
 
 Passport.cs
   - POSPoll()
-    - [Connector](#POSHasSkuLog.cs).Download(XmlPath=false, ...);
+    - [Connector](#POSHasSkuLog-cs).Download(XmlPath=false, ...);
 
 PassportSetting.cs
 ```
@@ -36,14 +36,15 @@ XmlOutBoxPath = POSMapPath;
 
 Radiant.cs
   - POSPoll()
-    - [Connector](#POSHasSkuLog.cs).Download(XmlPath=false, ...);
-    - [Connector](#POSHasSkuLog.cs).Download(XmlPath=true, ...);
+    - [Connector](#POSHasSkuLog-cs).Download(XmlPath=false, ...);
+    - [Connector](#POSHasSkuLog-cs).Download(XmlPath=true, ...);
         
 RadiantSetting.cs
 
 - [ ] Ruby.cs
 
-#### POSHasSkuLog.cs
+POSHasSkuLog.cs
+---------------
 
 - Connector
 ```
